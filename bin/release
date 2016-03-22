@@ -14,3 +14,6 @@ cat <<YAML
 default_process_types:
     web: PATH=\$HOME/../$SOURCEY/bin:\$PATH$P5L ./SourceyStart.sh
 YAML
+
+sleep 900
+
